@@ -52,13 +52,13 @@ img {
   padding-bottom: 1cm;
 }
 
-ul, ol {
+ol {
   background: #fcfcfc;/*背景色*/
   padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
   border: solid 3px gray;/*線の種類 太さ 色*/
 }
 
-ul li, ol li {
+ol{
   line-height: 1.5; /*文の行高*/
   padding: 0.5em 0; /*前後の文との余白*/
 }
@@ -149,7 +149,7 @@ h1 {
    [3] �R���e���c�u���b�N���Ɋւ���w�� */
 
 /* -- ���o�� -- */
-h2,h3,h4,h5,h6 {
+h2 {
   font-size: 120%;
   font-weight: normal;
   margin-bottom: 0.5em;
@@ -157,7 +157,24 @@ h2,h3,h4,h5,h6 {
   background: url(img/bg-h.jpg) no-repeat 0 50%;
 }
 
+h3,h4,h5,h6 {
+  font-size: 100%;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  padding: 1em 0 1em 50px;
+  background: url(img/bg-h.jpg) no-repeat 0 50%;
+}
+
+img {
+  size: 10px;
+}
+
 h3,h4,h5,h6 { margin-top: 2.5em; }
+
+details{
+  margin-left: 2em;
+}
 
 /* -- ���� -- */
 #contents p {
