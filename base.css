@@ -159,6 +159,9 @@ h2 {
 
 #secretButton {
   margin: 130px 1000px 120px 125px;
+  border: none;
+  outline: none;
+  background: transparent;
 }
 
 h3,h4,h5,h6 {
